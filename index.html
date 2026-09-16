@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SoberanIA | Servidores de Inteligencia Artificial Local para Empresas</title>
+<meta name="description" content="SoberanIA diseña e instala servidores de IA generativa dentro de tu empresa: sin enviar datos a la nube, sin cuotas por token y con soporte técnico continuo. RGPD by design.">
+<link rel="canonical" href="https://www.soberania-ia.es/">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="SoberanIA | Servidores de Inteligencia Artificial Local para Empresas">
+<meta property="og:description" content="IA generativa instalada dentro de tu empresa: privacidad total, coste fijo y rendimiento bajo tu control.">
+<meta property="og:url" content="https://www.soberania-ia.es/">
+<meta property="og:type" content="website">
+<link rel="icon" href="/assets/isotipo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio"><img src="/assets/isotipo.svg" alt="">Soberan<span class="ia">IA</span></a>
+    <nav class="links">
+      <a href="#servidores">Servidores</a>
+      <a href="#casos-de-uso">Casos de uso</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#comparativa">Cloud vs Local</a>
+      <a href="#faq">FAQ</a>
+      <a class="navcall" href="#cita">Reservar consultoría</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" onclick="document.getElementById('mobileMenu').hidden=!document.getElementById('mobileMenu').hidden" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+  </div>
+  <div id="mobileMenu" class="mobile-menu" hidden>
+    <a href="#servidores">Servidores</a>
+    <a href="#casos-de-uso">Casos de uso</a>
+    <a href="#como-funciona">Cómo funciona</a>
+    <a href="#comparativa">Cloud vs Local</a>
+    <a href="#faq">FAQ</a>
+    <a href="#cita">Reservar consultoría</a>
+    <!-- PLACEHOLDER: sustituye por el teléfono real -->
+    <a href="tel:+34900000000">+34 900 00 00 00</a>
+  </div>
+  <script>document.querySelectorAll("#mobileMenu a").forEach(function(a){a.addEventListener("click",function(){document.getElementById("mobileMenu").hidden=true;});});</script>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+  <div class="hero-deco" role="presentation" aria-hidden="true">
+    <span class="shape circle"></span>
+    <span class="shape square"></span>
+    <span class="shape ring"></span>
+  </div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span>Servidores de IA on-premise · RGPD by design</div>
+      <h1>Tu inteligencia artificial. <span class="accent">Dentro de tu empresa.</span></h1>
+      <p class="lead">Diseñamos, instalamos y mantenemos servidores de IA generativa que corren en tu propia red. Sin enviar un solo dato a la nube, sin cuotas por token y sin depender de que un proveedor externo siga vivo mañana.</p>
+      <div class="ctas">
+        <!-- PLACEHOLDER: sustituye el número de WhatsApp por el real -->
+        <a class="cta wa" href="https://api.whatsapp.com/send?phone=34900000000&text=%C2%A1Hola%20SoberanIA%2C%20quiero%20informaci%C3%B3n%20sobre%20servidores%20de%20IA%20local" target="_blank">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3.5A12.4 12.4 0 0 0 5.3 22l-1.6 6.2 6.35-1.66A12.4 12.4 0 1 0 16 3.5Zm0 22.5a10.1 10.1 0 0 1-5.16-1.4l-.37-.22-3.77.99 1.01-3.66-.24-.39A10.1 10.1 0 1 1 16 26Zm5.54-7.55c-.3-.15-1.8-.89-2.08-.99-.28-.1-.49-.15-.69.15-.2.3-.8.99-.98 1.19-.18.2-.36.23-.67.08-.3-.15-1.29-.48-2.46-1.52-.91-.81-1.52-1.82-1.7-2.12-.18-.3-.02-.47.14-.62.14-.14.3-.36.46-.54.16-.18.2-.3.31-.51.1-.2.05-.39-.03-.54-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.52-.69-.53h-.6c-.2 0-.54.08-.82.39-.28.3-1.08 1.06-1.08 2.59 0 1.52 1.11 2.99 1.26 3.2.15.2 2.18 3.34 5.29 4.69.74.32 1.32.51 1.77.65.74.24 1.41.2 1.95.12.6-.09 1.8-.73 2.05-1.45.25-.71.25-1.32.18-1.45-.08-.13-.29-.2-.59-.35Z"/></svg>
+          Hablar por WhatsApp con un ingeniero
+        </a>
+        <!-- PLACEHOLDER: sustituye el teléfono por el real -->
+        <a class="cta phone" href="tel:+34900000000">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Llamar ahora · +34 900 00 00 00
+        </a>
+        <a class="cta meet" href="#cita">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Agenda una auditoría técnica gratuita de 30 minutos
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+        </a>
+      </div>
+    </div>
+    <aside class="info">
+      <div class="kicker">Ficha técnica destacada</div>
+      <h2>Nodo Pro · Servidor de IA departamental</h2>
+      <p class="sub">El modelo más solicitado por empresas de 20 a 200 usuarios.</p>
+      <div class="spec-row"><small>GPU</small><strong>Profesional · alto VRAM</strong></div>
+      <div class="spec-row"><small>Memoria</small><strong>hasta 512 GB RAM</strong></div>
+      <div class="spec-row"><small>Modelos compatibles</small><strong>Llama · Mistral · Qwen</strong></div>
+      <div class="spec-row"><small>Conectividad</small><strong>100% red interna</strong></div>
+      <div class="spec-row"><small>Disponibilidad</small><strong>sin límite de uso</strong></div>
+      <a class="maplink" href="#servidores">Ver los 3 modelos disponibles
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </aside>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat"><b>100%</b><span>de los datos se quedan en tu red</span></div>
+    <div class="stat"><b>0€</b><span>de coste variable por token o consulta</span></div>
+    <div class="stat"><b>24/7</b><span>disponibilidad, incluso sin internet</span></div>
+    <div class="stat"><b>&lt;72h</b><span>para tener el servidor operativo</span></div>
+  </div>
+</section>
+
+<section class="problem-section" id="problemas">
+  <div class="wrap">
+    <div class="kicker">Lo que suele preocupar de verdad</div>
+    <h2 class="title">No buscas "más inteligencia artificial". Buscas usarla sin perder el control.</h2>
+    <div class="problem-grid">
+      <article class="problem"><h3>"Cada consulta a la IA en la nube tiene un coste que no controlamos."</h3><p>El gasto por token crece con el uso y es imposible de predecir a fin de mes.</p></article>
+      <article class="problem"><h3>"No sabemos dónde terminan los datos de nuestros clientes."</h3><p>Cada prompt sale de la empresa hacia servidores de terceros, fuera de tu control.</p></article>
+      <article class="problem"><h3>"El RGPD y la confidencialidad no encajan con mandar información a una API externa."</h3><p>Contratos, historiales o datos de empleados no deberían salir de tu red.</p></article>
+      <article class="problem"><h3>"Si el proveedor cloud cae o cambia condiciones, nuestra operativa se para."</h3><p>Dependes de la disponibilidad, los precios y las políticas de un tercero.</p></article>
+      <article class="problem"><h3>"Los modelos cambian sin avisar y rompen lo que ya funcionaba."</h3><p>Una actualización silenciosa en la nube puede alterar resultados de un día para otro.</p></article>
+      <article class="problem"><h3>"Queremos usar IA generativa en serio, pero sin atarnos para siempre a un tercero."</h3><p>Buscas infraestructura propia, no una suscripción que nunca deja de crecer.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="servidores">
+  <div class="wrap">
+    <div class="kicker">Tres tamaños. Un mismo objetivo</div>
+    <h2 class="title">Servidores de IA pensados para instalarse dentro de tu empresa.</h2>
+    <p class="lead">Dimensionamos el hardware según el uso real: nº de usuarios, tipo de tareas y modelos que necesitas ejecutar. Estas son las tres configuraciones de referencia; toda propuesta se ajusta a tu caso.</p>
+    <div class="plan-grid">
+      <article class="plan">
+        <span class="tag">NODO STARTER</span>
+        <h3>Para pymes y despachos</h3>
+        <p>El punto de entrada para dejar de depender de APIs externas.</p>
+        <ul class="specs">
+          <li><span>GPU</span><b>1× profesional</b></li>
+          <li><span>Memoria</span><b>128 GB RAM</b></li>
+          <li><span>Modelos</span><b>hasta 13B</b></li>
+          <li><span>Usuarios simultáneos</span><b>hasta 20</b></li>
+          <li><span>Soporte</span><b>horario laboral</b></li>
+        </ul>
+        <a class="plan-cta" href="#contacto">Solicitar propuesta</a>
+      </article>
+      <article class="plan featured">
+        <span class="plan-badge">Más elegido</span>
+        <span class="tag">NODO PRO</span>
+        <h3>Para uso departamental</h3>
+        <p>Para equipos que usan IA a diario en varios procesos a la vez.</p>
+        <ul class="specs">
+          <li><span>GPU</span><b>multi-GPU</b></li>
+          <li><span>Memoria</span><b>hasta 512 GB RAM</b></li>
+          <li><span>Modelos</span><b>hasta 70B</b></li>
+          <li><span>Usuarios simultáneos</span><b>hasta 200</b></li>
+          <li><span>Soporte</span><b>prioritario 24/7</b></li>
+        </ul>
+        <a class="plan-cta" href="#contacto">Solicitar propuesta</a>
+      </article>
+      <article class="plan">
+        <span class="tag">NODO ENTERPRISE</span>
+        <h3>Para operaciones críticas</h3>
+        <p>Clúster con redundancia y alta disponibilidad para toda la organización.</p>
+        <ul class="specs">
+          <li><span>GPU</span><b>clúster escalable</b></li>
+          <li><span>Memoria</span><b>a medida</b></li>
+          <li><span>Modelos</span><b>gran escala</b></li>
+          <li><span>Usuarios simultáneos</span><b>sin límite práctico</b></li>
+          <li><span>Soporte</span><b>SLA dedicado</b></li>
+        </ul>
+        <a class="plan-cta" href="#contacto">Solicitar propuesta</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div class="art">
+      <div class="model-pills"><span>Llama</span><span>Mistral</span><span>Qwen</span><span>DeepSeek</span><span>Whisper</span></div>
+      <div class="art-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div><strong>Tus datos no salen de tu red</strong><span>Todo el procesamiento ocurre dentro de tu infraestructura</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="kicker">No es "poner un chatbot"</div>
+      <h2 class="title">Instalamos infraestructura, no una demo. Y la dejamos integrada con lo que ya usas.</h2>
+      <p class="lead">Configuramos el servidor con los modelos open-source que mejor encajan con tu caso de uso y lo conectamos a tus herramientas: CRM, ERP, atención al cliente, documentación interna.</p>
+      <div class="ticks">
+        <div class="tick"><i>✓</i><div><b>Sin cuotas por token.</b><br>Pagas el servidor, no cada consulta.</div></div>
+        <div class="tick"><i>✓</i><div><b>Datos que nunca salen de tu red.</b><br>Cumplimiento RGPD por diseño.</div></div>
+        <div class="tick"><i>✓</i><div><b>Escalable cuando lo necesites.</b><br>Amplías GPU y memoria sin cambiar de proveedor.</div></div>
+        <div class="tick"><i>✓</i><div><b>Integraciones reales.</b><br>Conectado a las herramientas que tu equipo ya usa.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="kicker">Cómo trabajamos</div>
+    <h2 class="title">De la idea al servidor funcionando, en cuatro pasos.</h2>
+    <div class="steps-grid">
+      <div class="step"><strong>01</strong><h3>Diagnóstico</h3><p>Analizamos qué tareas quieres resolver con IA y qué datos manejan.</p></div>
+      <div class="step"><strong>02</strong><h3>Dimensionado</h3><p>Elegimos GPU, memoria y modelos según el uso real, no sobre el papel.</p></div>
+      <div class="step"><strong>03</strong><h3>Instalación</h3><p>Montamos el servidor en tu empresa o en tu centro de datos y lo integramos.</p></div>
+      <div class="step"><strong>04</strong><h3>Soporte continuo</h3><p>Mantenimiento, actualizaciones de modelos y ampliaciones cuando crezcas.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="usecases" id="casos-de-uso">
+  <div class="wrap">
+    <div class="kicker">Sectores donde más se nota</div>
+    <h2 class="title">La IA local encaja especialmente bien donde el dato es sensible.</h2>
+    <div class="usecase-grid">
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12h6M9 16h6M9 8h6"/><rect x="4" y="3" width="16" height="18" rx="2"/></svg></span><h3>Despachos legales</h3><p>Análisis y redacción de documentos sin que un expediente salga del despacho.</p></article>
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3>Sanidad y clínicas</h3><p>Apoyo a la gestión clínica y documentación con los datos del paciente dentro de casa.</p></article>
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg></span><h3>Banca y seguros</h3><p>Análisis documental y atención asistida sin exponer datos financieros a terceros.</p></article>
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span><h3>Industria y manufactura</h3><p>Mantenimiento predictivo y control de calidad con IA corriendo en planta.</p></article>
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><h3>Administración pública</h3><p>Automatización de trámites y atención ciudadana cumpliendo con el ENS.</p></article>
+      <article class="usecase"><span class="usecase-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span><h3>Ecommerce y retail</h3><p>Atención al cliente y catalogación de producto sin límites de peticiones.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="comparativa">
+  <div class="wrap">
+    <div class="kicker">Números claros</div>
+    <h2 class="title" id="comparativa-title">IA en la nube frente a servidor de IA local.</h2>
+    <div class="compare-wrap">
+      <table class="compare" aria-labelledby="comparativa-title">
+        <thead>
+          <tr><th>Criterio</th><th>IA en la nube</th><th class="hl">Servidor SoberanIA</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Coste</th><td class="bad">Variable, crece con el uso</td><td class="hl good">Fijo, una vez instalado</td></tr>
+          <tr><th scope="row">Datos</th><td class="bad">Salen de tu red</td><td class="hl good">Nunca salen de tu empresa</td></tr>
+          <tr><th scope="row">Disponibilidad</th><td class="bad">Depende del proveedor</td><td class="hl good">La controlas tú, 24/7</td></tr>
+          <tr><th scope="row">Funciona sin internet</th><td class="bad">No</td><td class="hl good">Sí</td></tr>
+          <tr><th scope="row">Cumplimiento RGPD</th><td class="bad">Depende del contrato del proveedor</td><td class="hl good">Por diseño</td></tr>
+          <tr><th scope="row">Personalización del modelo</th><td class="bad">Limitada</td><td class="hl good">Total</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="plans">
+  <div class="wrap">
+    <div class="kicker">Por qué confiar el proyecto a SoberanIA</div>
+    <h2 class="title">Instalación llave en mano y soporte técnico real.</h2>
+    <div class="guarantees">
+      <a class="guarantee g1" href="#faq">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <h3>RGPD by design</h3>
+        <p>El dato nunca sale de tu red: la privacidad no depende de una cláusula de un tercero.</p>
+      </a>
+      <a class="guarantee g2" href="#como-funciona">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 3v4M8 3v4M2 11h20"/></svg>
+        <h3>Instalación llave en mano</h3>
+        <p>Nos encargamos del hardware, el software y la integración con tus herramientas.</p>
+      </a>
+      <a class="guarantee g3" href="#cita">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <h3>Soporte técnico continuo</h3>
+        <p>Mantenimiento, actualización de modelos y ampliaciones cuando tu empresa crezca.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="cita">
+  <div class="wrap">
+    <div class="kicker">Auditoría técnica gratuita</div>
+    <h2 class="title">Reserva una reunión de 30 minutos.</h2>
+    <p class="lead">Cuéntanos qué quieres resolver con IA y qué datos maneja tu empresa. Te decimos, sin compromiso, qué servidor encaja y qué modelos podrías ejecutar.</p>
+    <!-- PLACEHOLDER: sustituye por tu enlace real de Cal.com -->
+    <iframe class="cal" src="https://cal.com/soberania-ia/30min?embed=true&theme=light" title="Reserva una auditoría técnica" loading="lazy"></iframe>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="kicker">Preguntas frecuentes</div>
+    <h2 class="title">Lo que suelen preguntar antes de empezar.</h2>
+    <details><summary>¿Necesito conexión a internet para usar la IA?</summary><p>No. Una vez instalado, el servidor funciona dentro de tu red local; la conexión a internet solo se usa para gestión remota y actualizaciones opcionales.</p></details>
+    <details><summary>¿Qué modelos de IA puedo ejecutar?</summary><p>Modelos open-source como Llama, Mistral, Qwen o DeepSeek, entre otros, adaptados al tamaño de servidor que necesites.</p></details>
+    <details><summary>¿Cuánto tarda la instalación?</summary><p>Depende del modelo de servidor y de la integración necesaria; los proyectos estándar suelen estar operativos en pocos días desde el pedido.</p></details>
+    <details><summary>¿Puedo ampliar el servidor si mi empresa crece?</summary><p>Sí. Las configuraciones están pensadas para escalar en GPU, memoria y almacenamiento sin cambiar de proveedor.</p></details>
+    <details><summary>¿Dais soporte después de la instalación?</summary><p>Sí, con planes de mantenimiento, actualización de modelos y soporte técnico continuo según el nivel contratado.</p></details>
+    <details><summary>¿Trabajáis solo con empresas de Madrid?</summary><p>Instalamos en toda España; el diagnóstico y buena parte del soporte se realizan también en remoto.</p></details>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap contact">
+    <div>
+      <div class="kicker">Cuéntanos tu caso</div>
+      <h2 class="title">¿Qué te gustaría resolver con IA dentro de tu empresa?</h2>
+      <p class="lead">Cuéntanos el problema en términos de negocio y qué datos manejas; nosotros nos encargamos de traducirlo en la infraestructura adecuada.</p>
+    </div>
+    <form id="contact-form">
+      <input name="nombre" placeholder="Nombre" required>
+      <input name="empresa" placeholder="Empresa" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input name="telefono" placeholder="Teléfono" required>
+      <select name="interes">
+        <option>Servidor de IA para uso general</option>
+        <option>Automatización de procesos con IA local</option>
+        <option>Migrar desde un proveedor cloud</option>
+        <option>Consultoría / aún no lo tengo claro</option>
+      </select>
+      <input name="usuarios" placeholder="Nº aproximado de usuarios/equipos">
+      <textarea class="full" name="mensaje" placeholder="¿Qué quieres resolver con IA? ¿Qué tipo de datos maneja tu empresa?" required></textarea>
+      <label class="full" style="font-size:14px">
+        <input type="checkbox" required style="width:auto;margin-right:8px">
+        Acepto la <a class="privacy-link" href="/politica-privacidad" target="_blank" rel="noopener">política de privacidad</a>.
+      </label>
+      <button class="submit full">Enviar consulta</button>
+      <p id="status" class="full"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer">
+      <div class="footer-brand"><img src="/assets/isotipo.svg" alt="">Soberan<span class="ia" style="background:linear-gradient(90deg,#c6ff3f,#33e6ff);-webkit-background-clip:text;background-clip:text;color:transparent">IA</span></div>
+      <nav class="footer-links">
+        <a href="#servidores">Servidores</a>
+        <a href="#casos-de-uso">Casos de uso</a>
+        <a href="#comparativa">Cloud vs Local</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <div class="footer-sub">© <span id="year"></span> SoberanIA — Servidores de inteligencia artificial local para empresas · España</div>
+  </div>
+</footer>
+
+<!-- PLACEHOLDER: sustituye el número de WhatsApp por el real -->
+<a class="float-wa" href="https://api.whatsapp.com/send?phone=34900000000&text=%C2%A1Hola%20SoberanIA%2C%20quiero%20informaci%C3%B3n%20sobre%20servidores%20de%20IA%20local" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3.5A12.4 12.4 0 0 0 5.3 22l-1.6 6.2 6.35-1.66A12.4 12.4 0 1 0 16 3.5Zm0 22.5a10.1 10.1 0 0 1-5.16-1.4l-.37-.22-3.77.99 1.01-3.66-.24-.39A10.1 10.1 0 1 1 16 26Zm5.54-7.55c-.3-.15-1.8-.89-2.08-.99-.28-.1-.49-.15-.69.15-.2.3-.8.99-.98 1.19-.18.2-.36.23-.67.08-.3-.15-1.29-.48-2.46-1.52-.91-.81-1.52-1.82-1.7-2.12-.18-.3-.02-.47.14-.62.14-.14.3-.36.46-.54.16-.18.2-.3.31-.51.1-.2.05-.39-.03-.54-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.52-.69-.53h-.6c-.2 0-.54.08-.82.39-.28.3-1.08 1.06-1.08 2.59 0 1.52 1.11 2.99 1.26 3.2.15.2 2.18 3.34 5.29 4.69.74.32 1.32.51 1.77.65.74.24 1.41.2 1.95.12.6-.09 1.8-.73 2.05-1.45.25-.71.25-1.32.18-1.45-.08-.13-.29-.2-.59-.35Z"/></svg>
+</a>
+
+<div id="n8n-chat"></div>
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet">
+<script type="module">
+  import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+  createChat({
+    /* PLACEHOLDER: sustituye por la URL de tu webhook de n8n */
+    webhookUrl: 'https://TU-INSTANCIA-N8N.com/webhook/CAMBIAR-ESTE-ID/chat',
+    target: '#n8n-chat',
+    mode: 'window',
+    defaultLanguage: 'es',
+    initialMessages: ['¡Hola! 👋 Soy Nova, la asistente de SoberanIA. Cuéntame qué te gustaría resolver con IA local en tu empresa y qué tamaño de equipo tenéis.'],
+    i18n: { es: { title: 'Asistente SoberanIA', subtitle: 'Servidores de IA local para empresas', footer: '', getStarted: 'INICIAR CONVERSACIÓN', inputPlaceholder: 'Escribe tu mensaje...' } }
+  });
+</script>
+<script>
+(function(){
+  var a=()=>{
+    var r=document.querySelector('#n8n-chat');
+    if(!r) return;
+    var t=r.querySelector('.chat-window-toggle,[class*="chat-window-toggle"]'),
+        w=r.querySelector('.chat-window,[class*="chat-window"]');
+    if(t){t.style.setProperty('bottom','96px','important');t.style.setProperty('z-index','10060','important')}
+    if(w){w.style.setProperty('bottom','166px','important');w.style.setProperty('z-index','10100','important');w.style.setProperty('max-height','calc(100vh - 190px)','important')}
+  };
+  var b=()=>{
+    var r=document.querySelector('#n8n-chat');
+    if(!r) return setTimeout(b,150);
+    new MutationObserver(a).observe(r,{childList:true,subtree:true,attributes:true});
+    a();
+  };
+  b();
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var f=document.getElementById('contact-form'), s=document.getElementById('status');
+  f.addEventListener('submit', async function(e){
+    e.preventDefault();
+    s.textContent='Enviando...'; s.style.color='';
+    try{
+      var r=await fetch('/api/contacto',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f).entries()))});
+      if(!r.ok) throw 0;
+      s.textContent='Consulta enviada correctamente. Te contactaremos en menos de 24h.';
+      s.style.color='green';
+      f.reset();
+    }catch(err){
+      s.textContent='No se pudo enviar. Contacta por teléfono o WhatsApp.';
+      s.style.color='#b72f2f';
+    }
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"SoberanIA","url":"https://www.soberania-ia.es/","logo":"https://www.soberania-ia.es/assets/isotipo.svg","description":"Diseño, instalación y mantenimiento de servidores de inteligencia artificial generativa on-premise para empresas en España, con datos que nunca salen de la red del cliente.","areaServed":"ES"}
+</script>
+
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p>Utilizamos cookies y tecnologías similares propias y de terceros, de sesión o persistentes, para hacer funcionar de manera segura nuestra página web y personalizar su contenido. Igualmente, utilizamos cookies para medir y obtener datos de la navegación que realizas y para ajustar la publicidad a tus gustos y preferencias. Puedes aceptar el uso de cookies a continuación.</p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" id="cookie-accept">Aceptar</button>
+    <button type="button" class="cookie-btn" id="cookie-reject">Rechazar</button>
+    <a class="cookie-btn cookie-link" href="/politica-privacidad" target="_blank" rel="noopener">Política de privacidad</a>
+  </div>
+  <button type="button" class="cookie-close" id="cookie-close" aria-label="Cerrar">&times;</button>
+</div>
+<style>
+.cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#12141d;color:#fff;padding:20px 56px 20px 20px;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;text-align:center;box-shadow:0 -8px 30px rgba(0,0,0,.3);font-family:Arial,Helvetica,sans-serif}
+.cookie-banner:not([hidden]){display:flex}
+.cookie-banner p{margin:0;max-width:900px;font-size:13.5px;line-height:1.5;flex:1 1 500px;color:#fff}
+.cookie-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;flex:0 0 auto}
+.cookie-btn{display:inline-block;border:0;background:#7c5cff;color:#fff!important;font-weight:700;font-size:13.5px;padding:10px 18px;border-radius:6px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.cookie-btn:hover{background:#6a49f2}
+.cookie-close{position:absolute;top:10px;right:14px;background:transparent;border:0;color:#aab0bb;font-size:22px;line-height:1;cursor:pointer;padding:6px 8px}
+.cookie-close:hover{color:#fff}
+@media(max-width:700px){
+  .cookie-banner{padding:18px 40px 18px 16px;text-align:left}
+  .cookie-banner p{font-size:12.5px}
+  .cookie-actions{flex-direction:column;align-items:stretch;width:100%}
+  .cookie-btn{width:100%;text-align:center;padding:12px 16px}
+}
+</style>
+<script>
+(function(){
+  var KEY='soberania_ia_cookie_consent';
+  var banner=document.getElementById('cookie-banner');
+  if(!banner) return;
+  var already=false;
+  try{ already=!!localStorage.getItem(KEY); }catch(e){}
+  if(already){ banner.hidden=true; return; }
+  banner.hidden=false;
+  function setConsent(value){
+    try{ localStorage.setItem(KEY,value); }catch(e){}
+    banner.hidden=true;
+  }
+  var a=document.getElementById('cookie-accept'); if(a) a.addEventListener('click',function(){setConsent('accepted')});
+  var r=document.getElementById('cookie-reject'); if(r) r.addEventListener('click',function(){setConsent('rejected')});
+  var c=document.getElementById('cookie-close'); if(c) c.addEventListener('click',function(){setConsent('dismissed')});
+})();
+</script>
+</body>
+</html>
